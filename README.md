@@ -23,6 +23,7 @@ pod 'MyEggShample'
 ## Author
 
 jalvarez1CoStar, jalvarez1@costar.com
+Darren, dreely@costar.costar.com
 
 ## License
 

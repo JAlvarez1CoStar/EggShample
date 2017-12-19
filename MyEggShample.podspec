@@ -21,20 +21,20 @@ Pod::Spec.new do |s|
 This CocoaPod provides the ability to use a UILabel that may be started and stopped blinking.
                        DESC
 
-  s.homepage         = 'https://github.com/jalvarez1CoStar/MyEggShample'
+  s.homepage         = 'https://github.com/jalvarez1CoStar/EggShample'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'jalvarez1CoStar' => 'jalvarez1@costar.com' }
-  s.source           = { :git => 'https://github.com/jalvarez1CoStar/MyEggShample.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/jalvarez1CoStar/EggShample.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'MyEggShample/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'MyEggShample' => ['MyEggShample/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'MyEggShample' => ['MyEggShample/Assets/*.{storyboard,xib,xcassets,json,imageset,png,pdf}']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
